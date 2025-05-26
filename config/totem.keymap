@@ -72,6 +72,11 @@
             bindings = <&studio_unlock>;
             key-positions = <35 34>;
         };
+
+        pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <9 19>;
+        };
     };
 
     keymap {
