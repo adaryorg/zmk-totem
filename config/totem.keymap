@@ -47,7 +47,19 @@
         };
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <17 18 19>;
+        };
+
+        tilde {
+            bindings = <&kp TILDE>;
+            key-positions = <0 1>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
