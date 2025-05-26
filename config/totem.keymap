@@ -71,11 +71,13 @@
         studio-unlock {
             bindings = <&studio_unlock>;
             key-positions = <35 34>;
+            layers = <0 1 2 3>;
         };
 
         pipe {
             bindings = <&kp PIPE>;
             key-positions = <9 19>;
+            layers = <0 1 2 3>;
         };
     };
 
